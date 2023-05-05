@@ -1,0 +1,55 @@
+.card-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.card {
+    background-color: #282828;
+    color: #fff;
+    width: 400px;
+    padding: 20px;
+    border-radius: 35px !important;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.form-control {
+    background-color: #373737 !important;
+    color: #ffffff !important;
+    border: none !important;
+    caret-color: #ffffff;
+}
+.form-control:focus {
+    background-color: #373737;
+    color: #ffffff !important;
+    border-color: #3386f7;
+    box-shadow: none;
+}
+.form-control::placeholder {
+    color: #a6a7a9 !important;
+}
+.form-control:hover{
+    border-color: #375f98 !important;
+}
+
+.nav-item {
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.navbar-brand {
+    padding-left: 50px;
+}
+
+.nav-user {
+    padding-right: 50px;
+}
+
+.text-sm-start > .small-pointer {
+    cursor: pointer;
+}
+
+.nav-link {
+    cursor: pointer;
+}
